@@ -3,7 +3,7 @@
 /*
 Plugin Name: Hide Comments
 Plugin URI: http://wordpress.org/extend/plugins/hide-comments
-Version: 0.1
+Version: 0.2
 Author: Vitor Carvalho
 Author URI: http://lightningspirit.net
 Description: If you do not need Comments functionality in your Wordpress instance, you can "hide" it with this plugin.
@@ -72,6 +72,12 @@ if ( version_compare( get_bloginfo( 'version' ), '2.8.0', '<' ) ) {
 }
 
 
+define( 'HIDE_COMMENTS_VERSION', 0.2 );
+
+if ( version_compare( get_option( 'hide_comments_version', 0.1 ), HIDE_COMMENTS_VERSION, '<' ) ) {
+	update_option( 'hide_comments_version', HIDE_COMMENTS_VERSION );
+
+}
 
 
 
