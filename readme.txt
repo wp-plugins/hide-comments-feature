@@ -4,7 +4,7 @@ Tags: plugin, hide, comments, comment, admin, feature, core
 Donate link: http://lightningspirit.net
 Requires at least: 2.8
 Tested up to: 3.0
-Stable tag: 0.1
+Stable tag: 0.2
 License: GPLv2
 
 If you do not need Comments functionality in your Wordpress instance, you can "hide" it with this plugin.
@@ -40,6 +40,9 @@ If you want to remove the comments from your Theme the best you can do is to edi
 
 
 == Changelog ==
+
+= 0.2 =
+* Bugfix: comment icon in menu shouldn't appear in instances prior than 3.0.3
 
 = 0.1 =
 
