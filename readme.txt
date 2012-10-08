@@ -4,7 +4,7 @@ Tags: plugin, hide, remove, comments, comment, comments, dashboard, feature, cor
 Donate link: http://vcarvalho.com/donate/
 Requires at least: 3.4
 Tested up to: 3.5
-Stable tag: 0.3.1
+Stable tag: 0.4
 License: GPLv2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 Remove comments functionality and related in your Wordpress instance.
@@ -73,13 +73,11 @@ Though, the main purpose of this plugin is to help web designers and developers 
 
 == Changelog ==
 
-= 0.3.1 =
-* Added translation for Portuguese 
-
-= 0.3 =
+= 0.4 =
 * Huge update! Everything is now handled consistently. It is expected to be 3.4 and 3.5 compatible.
 * Optimal support for the new Twenty Twelve theme.
 * Added 4 custom action hooks (see ) 
+* Added translation for Portuguese 
 
 = 0.2 =
 * Bugfix: comment icon in menu shouldn't appear in instances prior than 3.0.3
@@ -91,7 +89,7 @@ Though, the main purpose of this plugin is to help web designers and developers 
 
 == Upgrade Notice ==
 
-= 0.3 =
+= 0.4 =
 
 Huge update! Completely rewritten! Everything is now handled consistently. 
 New support for WordPress 3.4 and 3.5 using a combination of action hooks and CSS. 
