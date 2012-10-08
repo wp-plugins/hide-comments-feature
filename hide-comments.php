@@ -3,10 +3,12 @@
 /*
 Plugin Name: Hide Comments
 Plugin URI: http://wordpress.org/extend/plugins/hide-comments-feature
-Version: 0.3
+Version: 0.3.1
 Description: Remove comments functionality and related in your Wordpress instance.
 Author: lightningspirit
 Author URI: http://profiles.wordpress.org/lightningspirit
+Text Domain: hide-comments
+Domain Path: /languages/
 Tags: plugin, hide, remove, comments, comment, comments, dashboard, feature, core
 License: GPLv2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 */
@@ -203,7 +205,7 @@ function hide_comments_activation_hook() {
 	}
 	
 	// Update to last version in
-	update_option( 'hide_comments_plugin_version', '0.3' );	
+	update_option( 'hide_comments_plugin_version', '0.3.1' );	
 	
 }
 register_activation_hook( __FILE__, 'hide_comments_activation_hook' );

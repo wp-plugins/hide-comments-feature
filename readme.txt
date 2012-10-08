@@ -4,7 +4,7 @@ Tags: plugin, hide, remove, comments, comment, comments, dashboard, feature, cor
 Donate link: http://vcarvalho.com/donate/
 Requires at least: 3.4
 Tested up to: 3.5
-Stable tag: 0.3
+Stable tag: 0.3.1
 License: GPLv2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 
 Remove comments functionality and related in your Wordpress instance.
@@ -31,6 +31,8 @@ This plugin provides 4 custom hooks you may play if you need more substance in y
 `add_action( 'hide_comments_dashboard_right_now', 'my_hide_comments_dashboard_right_now' );` if true is returned, the discussion table of dashboard right now widget will be hidden. False otherwise. Defaults to true.
 
 The use of these hooks are recommended, thus, if the plugin gets deactivated, those hooks will not be called anymore and then you get things consistent and clean.
+
+Do you want to translate it to your language? Just reply to the «Translations» topic in the forum.
 
 
 == Installation ==
@@ -70,6 +72,9 @@ Though, the main purpose of this plugin is to help web designers and developers 
 
 
 == Changelog ==
+
+= 0.3.1 =
+* Added translation for Portuguese 
 
 = 0.3 =
 * Huge update! Everything is now handled consistently. It is expected to be 3.4 and 3.5 compatible.
