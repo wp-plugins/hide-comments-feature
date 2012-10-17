@@ -17,7 +17,7 @@ License: GPLv2 - http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
 /*
  * @package Hide Comments
  * @author Vitor Carvalho
- * @copyright Lightningspirit.net 2009-2010
+ * @copyright lightningspirit 2009-2012
  * This code is released under the GPL licence version 2 or later
  * http://www.gnu.org/licenses/gpl.txt
  */
@@ -61,13 +61,13 @@ if ( ! class_exists ( 'Hide_Comments_Feature' ) ) :
  * 
  * 
  * @package WordPress
- * @subpackage Importer
+ * @subpackage Hide Comments Feature
  * @since 0.3
  */
 class Hide_Comments_Feature {
 	
 	public function __construct() {
-		Hide_Comments_Feature::init();
+		array( 'plugins_loaded', array( 'Hide_Comments_Feature', 'init' ) );
 		
 	}
 	
