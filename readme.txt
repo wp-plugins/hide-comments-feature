@@ -19,7 +19,7 @@ Completely done through techniques based on both action hooks and CSS.
 
 Doesn't requires any configuration, just install and any trace of Comments will disappear.
 
-NOTE: This does NOT play with the core, so you are able to update both plugins and WordPress without any afraid.
+NOTE: This does NOT play with the core, so you are able to update both plugins and WordPress without any trouble.
 
 = Provided Custom Hooks =
 
@@ -76,8 +76,8 @@ Though, the main purpose of this plugin is to help web designers and developers 
 = 0.4 =
 * Huge update! Everything is now handled consistently. It is expected to be 3.4 and 3.5 compatible.
 * Optimal support for the new Twenty Twelve theme.
-* Added 4 custom action hooks (see ) 
-* Added translation for Portuguese 
+* Added 4 custom action hooks (see )
+* Added translation for Portuguese
 
 = 0.2 =
 * Bugfix: comment icon in menu shouldn't appear in instances prior than 3.0.3
@@ -91,9 +91,9 @@ Though, the main purpose of this plugin is to help web designers and developers 
 
 = 0.4 =
 
-Huge update! Completely rewritten! Everything is now handled consistently. 
-New support for WordPress 3.4 and 3.5 using a combination of action hooks and CSS. 
-Optimal support for the new Twenty Twelve theme. 
+Huge update! Completely rewritten! Everything is now handled consistently.
+New support for WordPress 3.4 and 3.5 using a combination of action hooks and CSS.
+Optimal support for the new Twenty Twelve theme.
 Provided 4 action hooks for developers.
 
- 
+
