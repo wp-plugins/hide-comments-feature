@@ -19,7 +19,7 @@ Completely done through techniques based on both action hooks and CSS.
 
 Doesn't requires any configuration, just install and any trace of Comments will disappear.
 
-NOTE: This does NOT play with the core, so you are able to update both plugins and WordPress without any afraid.
+NOTE: This does NOT play with the core, so you are able to update both plugins and WordPress without any trouble.
 
 = Provided Custom Hooks =
 
